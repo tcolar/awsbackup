@@ -7,7 +7,7 @@ and how many copies to keep there(remove old ones too).
 ### Installation
 First you need to install Boto
 
-WARNING: THe one in the UBuntu repo might be very obsolete, so It's best to install from sources
+WARNING: The boto version in the Ubuntu repo might be very obsolete, so It's best to install from sources
 
     git clone https://github.com/boto/boto.git
     cd boto
