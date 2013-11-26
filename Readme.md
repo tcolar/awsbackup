@@ -16,11 +16,10 @@ WARNING: The boto version in the Ubuntu repo might be very obsolete, so It's bes
 Install this :
 
     cd ..
-    git clone
     git clone https://github.com/tcolar
 
 #### Setup
-Copy aws_example.json under aws.json
+Copy [aws_example.json](aws_example.json) under aws.json
 
     cp aws_example.json aws.json
 
@@ -43,6 +42,6 @@ You can create a script like this (task.sh):
 
 Then have that script run from the cron:
 
-    0 3 * * * /data/support/aws/task.sh &
+    0 3 * * * /home/me/aws/task.sh &
 
 
