@@ -1,0 +1,31 @@
+{
+"access_key" : "ABDCAJKQEG4S935ESN5Q",
+"secret_key" : "qEe25dsfddftiFQ+GmmEOArNZ55CFGJXdEH",
+
+"ec2_snapshots" : [
+  {
+    "name" : "Web Live",
+    "instance" : "i-6585bbdb",
+    "region" : "us-west-2",
+    "keep" : 7,
+    "copy_to" : "us-east-1",
+    "copy_keep" : 1
+  },
+  {
+    "name" : "Web Test",
+    "instance" : "i-6895234B",
+    "region" : "us-west-2",
+    "keep" : 3,
+    "copy_to" : "us-east-1",
+    "copy_keep" : 1
+  },
+  {
+    "name" : "Tools2",
+    "instance" : "i-5237FC35",
+    "region" : "us-west-2",
+    "keep" : 7,
+    "copy_to" : "us-east-1",
+    "copy_keep" : 1
+  }
+]
+}
